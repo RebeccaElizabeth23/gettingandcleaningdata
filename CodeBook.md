@@ -106,7 +106,7 @@ FrequencyBodyBodyGyroJerkMag-std  | ||
    * Here we rename the columns of the new combined data sets (subjects, activity labels and data). The names for the data object are obtained from the feature object (containing each of the variable/column names)
    
 3. **Filter the data to just mean and standard deviation variables: cbind, grep**
-   * Here we first loop though the feature list containings all the variable names and, using grep, find the indeces of variables that contain the word mean or std (standard deviation).
+   * Here we first loop though the feature list containings all the variable names and, using grep, find the indices of variables that contain the word mean or std (standard deviation).
    * We then filter the data object to just include the columns of those desired variables
    * This filtered data is then combined with both the subject and activity label data frames.
 
