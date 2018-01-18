@@ -34,9 +34,11 @@ Below are a list of data files that should be downloaded.
 
 Below is a list of variables(columns names) exported in the subjectdata.txt file. These are divided below into general variable names, mean variable names and standard deviation names. Variables with X, Y ans Z components are also specified.
 
-- **t** variables are a measure of time
-- **f** variables are a measure of frequency domain
+- **Time** variables are a measure of time
+- **Frequency** variables are a measure of frequency domain
 - Features are normalized and bounded within -1 to 1.
+- **Gravtity** indicates the measure comes from the gravitational motion component
+- **Body** indicates the measure comes from the body motion component
 
 General Variable Name |
  --------------------- |
