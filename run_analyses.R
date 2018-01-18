@@ -1,6 +1,6 @@
 # This script aims to generate the mean for each mean and standard devition variable
 # for each participant (1-30) and for each of the 6 activities.
-# This script relies on the data already being downloaded into the below directory (see line 11)
+# This script relies on the data already being downloaded into the present working directory
 
 
 # Load in relevant packages
