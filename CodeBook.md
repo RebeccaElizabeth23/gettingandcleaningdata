@@ -97,31 +97,3 @@ FrequencyBodyBodyGyroJerkMag-std  | ||
  
 
 
-## Script Process
-
-1.  **Importing and merging data sets :  read.table and rbind**
-   * Here we first load all the above mentioned data sets into R using the read.table function. These data sets are then combined across both test and trial sets (using rbind) so we have a single subject, activity label (Y) and data (X) data frame. The activity_labels and feature files are then converted to character lists to be manipulated and indexed later.
-   
-2. **Rename the columns: colnames**
-   * Here we rename the columns of the new combined data sets (subjects, activity labels and data). The names for the data object are obtained from the feature object (containing each of the variable/column names)
-   
-3. **Filter the data to just mean and standard deviation variables: cbind, grep**
-   * Here we first loop though the feature list containings all the variable names and, using grep, find the indices of variables that contain the word mean or std (standard deviation).
-   * We then filter the data object to just include the columns of those desired variables
-   * This filtered data is then combined with both the subject and activity label data frames.
-
-4. **Tidying up variable name: sapply, gsub**
-   * Here we loop around all the variable names and replace sections to improve their clarity
-   * Variatled signified with the t and f have been replaced to Time and Frequency respectivly (e.g. tBodyAcc-mean to TimeBodyAcc-mean)
-   * The () will be removed from the end
-
-
-5. **Rename activity column: sapply**
-   * Here we loop around each row in the Activity column and replace each number value with the corresponding activity descriptive name. It does this by using the element as an index to the previously saved activity names
- 
-6. **Save out the mean file: write.table**
-   * Here we save the output file to the current working directory as 'subjectmeans.txt'
-
-
-
-
