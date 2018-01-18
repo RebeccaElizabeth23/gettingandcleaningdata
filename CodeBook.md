@@ -46,30 +46,30 @@ Activity |
 
 Mean-Variable Name       | X                 |   Y                |  Z          
 ------------        | ----------------- | ----------------   | ------       
-tBodyAcc-mean       |tBodyAcc-mean-X    |  tBodyAcc-mean-Y    |   tBodyAcc-mean-Z               
-tBodyAccJerk-mean   | tBodyAccJerk-mean-X|tBodyAccJerk-mean-Y |   tBodyAccJerk-mean-Z
-tBodyAccMag-mean     | ||          
-tBodyAccJerkMag-mean| ||        
-tBodyGyro-mean      | tBodyGyro-mean-X  |   tBodyGyro-mean-Y  |   tBodyGyro-mean-Z              
-tBodyGyroJerk-mean  | tBodyGyroJerk-mean-X  | tBodyGyroJerk-mean-Y |  tBodyGyroJerk-mean-Z              
-tBodyGyroMag-mean | ||          
-tBodyGyroJerkMag-mean | ||    
-tGravityAcc-mean    |tGravityAcc-mean-X |  tGravityAcc-mean-Y |   tGravityAcc-mean-Z
-tGravityAccMag-mean | ||        
-fBodyAcc-mean       | fBodyAcc-mean-X    |fBodyAcc-mean-Y       |fBodyAcc-mean-Z               
-fBodyAcc-meanFreq   | fBodyAcc-meanFreq-X |   fBodyAcc-meanFreq-Y |  fBodyAcc-meanFreq-Z           
-fBodyAccJerk-mean   | fBodyAccJerk-mean-X |   fBodyAccJerk-mean-Y |  fBodyAccJerk-mean-Z           
-fBodyAccJerk-meanFreq | fBodyAccJerk-meanFreq-X|  fBodyAccJerk-meanFreq-Y |  fBodyAccJerk-meanFreq-Z 
-fBodyAccMag-mean  | ||               
-fBodyAccMag-meanFreq  | ||         
-fBodyGyro-mean     | fBodyGyro-mean-X  |   fBodyGyro-mean-Y|     fBodyGyro-mean-Z              
-fBodyGyro-meanFreq |     fBodyGyro-meanFreq-X | fBodyGyro-meanFreq-Y  | fBodyGyro-meanFreq-Z                 
-fBodyBodyAccJerkMag-mean | ||        
-fBodyBodyAccJerkMag-meanFreq | ||    
-fBodyBodyGyroMag-mean | ||          
-fBodyBodyGyroMag-meanFreq | ||       
-fBodyBodyGyroJerkMag-mean | ||      
-fBodyBodyGyroJerkMag-meanFreq | ||  
+TimeBodyAcc-mean       |TimeBodyAcc-mean-X    |  TimeBodyAcc-mean-Y    |   TimeBodyAcc-mean-Z               
+TimeBodyAccJerk-mean   | TimeBodyAccJerk-mean-X|TimeBodyAccJerk-mean-Y |   TimeBodyAccJerk-mean-Z
+TimeBodyAccMag-mean     | ||          
+TimeBodyAccJerkMag-mean| ||        
+TimeBodyGyro-mean      | TimeBodyGyro-mean-X  |   TimeBodyGyro-mean-Y  |   TimeBodyGyro-mean-Z              
+TimeBodyGyroJerk-mean  | TimeBodyGyroJerk-mean-X  | TimeBodyGyroJerk-mean-Y |  TimeBodyGyroJerk-mean-Z              
+TimeBodyGyroMag-mean | ||          
+TimeBodyGyroJerkMag-mean | ||    
+TimeGravityAcc-mean    |TimeGravityAcc-mean-X |  TimeGravityAcc-mean-Y |   TimeGravityAcc-mean-Z
+TimeGravityAccMag-mean | ||        
+FrequencyBodyAcc-mean       | FrequencyBodyAcc-mean-X    |FrequencyBodyAcc-mean-Y       |FrequencyBodyAcc-mean-Z               
+FrequencyBodyAcc-meanFreq   | FrequencyBodyAcc-meanFreq-X |   FrequencyBodyAcc-meanFreq-Y |  FrequencyBodyAcc-meanFreq-Z           
+FrequencyBodyAccJerk-mean   | FrequencyBodyAccJerk-mean-X |   FrequencyBodyAccJerk-mean-Y |  FrequencyBodyAccJerk-mean-Z           
+FrequencyBodyAccJerk-meanFreq | FrequencyBodyAccJerk-meanFreq-X|  FrequencyBodyAccJerk-meanFreq-Y |  FrequencyBodyAccJerk-meanFreq-Z 
+FrequencyBodyAccMag-mean  | ||               
+FrequencyBodyAccMag-meanFreq  | ||         
+FrequencyBodyGyro-mean     | FrequencyBodyGyro-mean-X  |   FrequencyBodyGyro-mean-Y|     FrequencyBodyGyro-mean-Z              
+FrequencyBodyGyro-meanFreq |     FrequencyBodyGyro-meanFreq-X | FrequencyBodyGyro-meanFreq-Y  | FrequencyBodyGyro-meanFreq-Z               
+FrequencyBodyBodyAccJerkMag-mean | ||        
+FrequencyBodyBodyAccJerkMag-meanFreq | ||    
+FrequencyBodyBodyGyroMag-mean | ||          
+FrequencyBodyBodyGyroMag-meanFreq | ||       
+FrequencyBodyBodyGyroJerkMag-mean | ||      
+FrequencyBodyBodyGyroJerkMag-meanFreq | ||  
      
 
 
@@ -77,20 +77,51 @@ fBodyBodyGyroJerkMag-meanFreq | ||
 
 STD-Variable Name       | X                 |   Y                |  Z          
 ------------        | ----------------- | ----------------   | ------  
-tBodyAcc-std  | tBodyAcc-std-X  |  tBodyAcc-std-Y  |  tBodyAcc-std-Z               
-tBodyAccJerk-std  | tBodyAccJerk-std-X  |    tBodyAccJerk-std-Y  |  tBodyAccJerk-std-Z  | 
-tBodyAccMag-std | ||    
-tBodyAccJerkMag-std | ||  
-tBodyGyro-std|  tBodyGyro-std-X  |  tBodyGyro-std-Y  |  tBodyGyro-std-Z  |              
-tBodyGyroJerk-std  | tBodyGyroJerk-std-X  |    tBodyGyroJerk-std-Y  |  tBodyGyroJerk-std-Z  |          
-tBodyGyroMag-std | ||    
-tBodyGyroJerkMag-std | ||    
-fBodyAcc-std  | fBodyAcc-std-X   | fBodyAcc-std-Y  | fBodyAcc-std-Z                
-fBodyAccJerk-std  | fBodyAccJerk-std-X  |  fBodyAccJerk-std-Y  |  fBodyAccJerk-std-Z  | 
-fBodyAccMag-std  | ||                 
-fBodyGyro-std  |  fBodyGyro-std-X   |   fBodyGyro-std-Y |  fBodyGyro-std-Z               
-fBodyBodyAccJerkMag-std   | ||         
-fBodyBodyGyroMag-std   | ||            
-fBodyBodyGyroJerkMag-std  | ||  
-tGravityAcc-std  | tGravityAcc-std-X  | tGravityAcc-std-Y   |   tGravityAcc-std-Z            
-tGravityAccMag-std | ||    
+TimeBodyAcc-std  | TimeBodyAcc-std-X  |  TimeBodyAcc-std-Y  |  TimeBodyAcc-std-Z               
+TimeBodyAccJerk-std  | TimeBodyAccJerk-std-X  |    TimeBodyAccJerk-std-Y  |  TimeBodyAccJerk-std-Z  | 
+TimeBodyAccMag-std | ||    
+TimeBodyAccJerkMag-std | ||  
+TimeBodyGyro-std|  TimeBodyGyro-std-X  |  TimeBodyGyro-std-Y  |  TimeBodyGyro-std-Z  |              
+TimeBodyGyroJerk-std  | TimeBodyGyroJerk-std-X  |    TimeBodyGyroJerk-std-Y  |  TimeBodyGyroJerk-std-Z  |          
+TimeBodyGyroMag-std | ||    
+TimeBodyGyroJerkMag-std | || 
+TimeGravityAcc-std  | TimeGravityAcc-std-X  | TimeGravityAcc-std-Y   |   TimeGravityAcc-std-Z            
+TimeGravityAccMag-std | ||   
+FrequencyBodyAcc-std  | FrequencyBodyAcc-std-X   | FrequencyBodyAcc-std-Y  | FrequencyBodyAcc-std-Z                
+FrequencyBodyAccJerk-std  | FrequencyBodyAccJerk-std-X  |  FrequencyBodyAccJerk-std-Y  |  FrequencyBodyAccJerk-std-Z  | 
+FrequencyBodyAccMag-std  | ||                 
+FrequencyBodyGyro-std  |  FrequencyBodyGyro-std-X   |   FrequencyBodyGyro-std-Y |  FrequencyBodyGyro-std-Z               
+FrequencyBodyBodyAccJerkMag-std   | ||         
+FrequencyBodyBodyGyroMag-std   | ||            
+FrequencyBodyBodyGyroJerkMag-std  | ||  
+ 
+
+
+## Script Process
+
+1.  **Importing and merging data sets :  read.table and rbind**
+   * Here we first load all the above mentioned data sets into R using the read.table function. These data sets are then combined across both test and trial sets (using rbind) so we have a single subject, activity label (Y) and data (X) data frame. The activity_labels and feature files are then converted to character lists to be manipulated and indexed later.
+   
+2. **Rename the columns: colnames**
+   * Here we rename the columns of the new combined data sets (subjects, activity labels and data). The names for the data object are obtained from the feature object (containing each of the variable/column names)
+   
+3. **Filter the data to just mean and standard deviation variables: cbind, grep**
+   * Here we first loop though the feature list containings all the variable names and, using grep, find the indeces of variables that contain the word mean or std (standard deviation).
+   * We then filter the data object to just include the columns of those desired variables
+   * This filtered data is then combined with both the subject and activity label data frames.
+
+4. **Tidying up variable name: sapply, gsub**
+   * Here we loop around all the variable names and replace sections to improve their clarity
+   * Variatled signified with the t and f have been replaced to Time and Frequency respectivly (e.g. tBodyAcc-mean to TimeBodyAcc-mean)
+   * The () will be removed from the end
+
+
+5. **Rename activity column: sapply**
+   * Here we loop around each row in the Activity column and replace each number value with the corresponding activity descriptive name. It does this by using the element as an index to the previously saved activity names
+ 
+6. **Save out the mean file: write.table**
+   * Here we save the output file to the current working directory as 'subjectmeans.txt'
+
+
+
+
