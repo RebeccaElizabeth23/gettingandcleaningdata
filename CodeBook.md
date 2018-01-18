@@ -37,7 +37,7 @@ Below is a list of variables(columns names) exported in the subjectdata.txt file
 - **Time** variables are a measure of time
 - **Frequency** variables are a measure of frequency domain
 - Features are normalized and bounded within -1 to 1.
-- **Gravtity** indicates the measure comes from the gravitational motion component
+- **Gravity** indicates the measure comes from the gravitational motion component
 - **Body** indicates the measure comes from the body motion component
 
 General Variable Name |
